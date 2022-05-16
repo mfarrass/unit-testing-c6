@@ -13,7 +13,6 @@ function App() {
     <div className={style.app}>
       <TodoInput setTodo={setTodo} />
       <TodoList todo={todo} setTodo={setTodo} />
-      {/* todo lenght = panjang dari todo listnya */}
       <TodoFooter todoLength={todo.length} />
     </div>
   );
